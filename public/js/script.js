@@ -7,7 +7,7 @@ Promise.all([
 ]).then(start);
 
 function start() {
-  document.body.append("Models Loaded");
+  document.body.append("Mode ls Loaded");
 
   navigator.getUserMedia(
     { video: {} },
